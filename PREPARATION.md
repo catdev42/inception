@@ -25,7 +25,7 @@ You can also SSH into the VM from your local VSCode - this requires a stable int
 
 Create all files and directories that are required - the files can be empty, but this will help understand the paths / structures
 See the subject(!!!), here is the simplified view:
-
+```
 inception/
 ├── Makefile
 └── srcs/
@@ -53,3 +53,4 @@ inception/
             │   └── www.conf           <-- PHP-FPM pool config (listen = 9000)
             └── tools/
                 └── wpscript.sh        <-- Script to download WP, create users, start PHP
+``
