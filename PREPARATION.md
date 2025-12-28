@@ -23,11 +23,13 @@ You can also SSH into the VM from your local VSCode - this requires a stable int
 
 ### Easiest start
 
-Create all files and directories that are required - the files can be empty, but this will help understand the paths / structures
+Create all files and directories that are required - the files can be empty, but this will help understand the paths / structures.
+Please add .env and secrets to the .gitignore.
 See the subject(!!!), here is the simplified view:
 ```
 inception/
 ├── Makefile
+├── .gitignore
 └── srcs/
     ├── .env                    <-- Your environment variables
     ├── docker-compose.yml      <-- The main orchestrator
