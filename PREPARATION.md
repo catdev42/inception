@@ -12,7 +12,7 @@ You will need to install Docker if it is not already installed - instructions on
 Note: Create a user. If you use you login as the user, you don't have to change it later.
 
 Please look up / research this part as there are some security concerns(!):
-Add the user to the docker group (This essentially can give user access to the entire system through docker as docker group has access to the kernel and Docker runs as root)
+Add the user to the docker group (This essentially can give user access to the entire system through docker as docker group has access to the kernel and Docker runs as root).
 This is a major security risk, effectively granting the user root-equivalent privileges without the safeguards of sudo.
 But, it makes development easier as you don't have to type "sudo docker" instead of "docker" every time.
 
