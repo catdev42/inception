@@ -1,4 +1,4 @@
-# Inception Pre-coding setup
+# Inception Pre-Coding Setup
 
 ## Recommendations
 
@@ -7,7 +7,7 @@
 The subject requires the final app to run in a VM.
 If working from home or multiple computers, a cloud VM is recommended for development!
 I used the smallest droplet on DigitalOcean, it is very user friendly to set up.
-You will need to install Docker if it is not already installed.
+You will need to install Docker if it is not already installed - instructions on their website.
 
 Note: Create a user. If you use you login as the user, you don't have to change it later.
 
