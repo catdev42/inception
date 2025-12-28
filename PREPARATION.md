@@ -16,10 +16,10 @@ Add the user to the docker group (This essentially can give user access to the e
 This is a major security risk, effectively granting the user root-equivalent privileges without the safeguards of sudo.
 But, it makes development easier as you don't have to type "sudo docker" instead of "docker" every time.
 
-Options:
-Add code to your repo in your favorite IDE locally, push and pull in the vm via ssh
-You can ssh into the droplet and use VIM/Nano/Neovim
-You can also SSH into the VM from your local VSCode - this requires a stable internet connection
+Options for workflow:  
+Add code to your repo in your favorite IDE locally, push and pull in the vm via ssh.  
+You can ssh into the droplet and use VIM/Nano/Neovim.  
+You can also SSH into the VM from your local VSCode - this requires a stable internet connection.  
 
 ### Easiest start
 
