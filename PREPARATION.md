@@ -59,4 +59,4 @@ inception/
 
 ## URL
 
-Add the URL to /etc/hosts file with "ip login.42.fr"
+Add the URL to /etc/hosts file with "ip login.42.fr" (in the vm)
