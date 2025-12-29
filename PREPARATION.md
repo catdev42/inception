@@ -56,3 +56,7 @@ inception/
             └── tools/
                 └── wpscript.sh        <-- Script to download WP, create users, start PHP
 ```
+
+## URL
+
+Add the URL to /etc/hosts file with "ip login.42.fr"
